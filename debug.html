@@ -8,7 +8,11 @@
 
 <script type="text/javascript">
 function toOneDimension(previousValue,currentValue){
-	return previousValue.concat(currentValue);
+	console.log("previous=",
+		previousValue);
+	console.log("current=",
+		currentValue);
+	return currentValue.concat(previousValue);
 }
 var sampleArrayA=[
 	['A1','A2','A3'],
